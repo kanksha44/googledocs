@@ -1,0 +1,42 @@
+.slider-card {
+  width: 7.35rem;
+  height: 9rem;
+  background-color: lightgoldenrodyellow;
+}
+.topheader-signin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-signin {
+  display: flex;
+  align-items: center;
+  flex-basis: 13%;
+  justify-content: space-evenly;
+}
+.searchbar {
+  flex-basis: 79%;
+  align-items: center;
+}
+.profilepic {
+  flex-basis: 8%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.main-slider-container {
+  background-color: rgb(242, 238, 238);
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.docs-card .slider {
+  margin-bottom: 2rem;
+}
+.recent-doc-heading {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

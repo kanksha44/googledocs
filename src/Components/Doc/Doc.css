@@ -1,0 +1,98 @@
+.topheader {
+  display: flex;
+
+  margin-top: 1rem;
+}
+.logo svg {
+  height: 3em;
+  width: 3em;
+}
+.logo {
+  flex-basis: 3%;
+}
+.menu {
+  flex-basis: 75%;
+}
+.logoutbtns {
+  flex-basis: 20%;
+}
+.left-menu nav ul {
+  display: flex;
+}
+.left-menu nav ul li {
+  list-style: none;
+  padding-right: 18px;
+  font-size: 18px;
+}
+/* .left-menu nav ul {
+  gap: 1rem;
+} */
+.left-menu nav ul {
+  padding-left: 0;
+}
+
+.input-name input {
+  border: none;
+}
+.input-name input:focus {
+  /* border: 1px gray solid; */
+  outline: gray 1px solid;
+  border-radius: 5px;
+}
+.input-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 27%;
+}
+.input-name input {
+  height: 2rem;
+  width: 15rem;
+  font-size: 24px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+.logoutbtns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-name svg {
+  height: 1.2em;
+  width: 1.3em;
+}
+.logoutbtns svg {
+  height: 2em;
+  width: 2em;
+}
+
+.share-btn svg {
+  height: 1.2em;
+  width: 1.3em;
+}
+
+.tools {
+  background-color: #edf2fa;
+  display: flex;
+  border-radius: 10rem;
+  height: 3.4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.tools svg {
+  height: 1.7em;
+  width: 1.7em;
+  color: #444746;
+}
+.font-size-btn {
+  flex-basis: 11%;
+}
+.font-size-btn button {
+  font-size: 2rem;
+}
+.font-size-btn input {
+  width: 2rem;
+  height: 1.5rem;
+}
