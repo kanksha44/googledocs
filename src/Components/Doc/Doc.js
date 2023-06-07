@@ -6,58 +6,51 @@ import { BsCameraVideo } from "react-icons/bs";
 import { AiOutlineLock } from "react-icons/ai";
 import Button from "@mui/material/Button";
 import Avatar from "@mui/material/Avatar";
-import { GrRedo } from "react-icons/gr";
-import { GrUndo } from "react-icons/gr";
-import { AiOutlinePrinter } from "react-icons/ai";
-import { MdSpellcheck } from "react-icons/md";
-import { MdOutlineColorize } from "react-icons/md";
-import { BiPaintRoll } from "react-icons/bi";
-import { MdOutlineFormatBold } from "react-icons/md";
-import { MdOutlineFormatItalic } from "react-icons/md";
-import { MdFormatColorText } from "react-icons/md";
-import { MdFormatUnderlined } from "react-icons/md";
-import { BiCommentAdd } from "react-icons/bi";
-import { BiImageAlt } from "react-icons/bi";
-import { FiLink2 } from "react-icons/fi";
-import { ImParagraphLeft } from "react-icons/im";
-import { MdChecklistRtl } from "react-icons/md";
-import { MdFormatListBulleted } from "react-icons/md";
-import { MdFormatListNumbered } from "react-icons/md";
-import { MdOutlineFormatIndentIncrease } from "react-icons/md";
-import { MdOutlineFormatIndentDecrease } from "react-icons/md";
-import { MdOutlineModeEditOutline } from "react-icons/md";
+// import { GrRedo } from "react-icons/gr";
+// import { GrUndo } from "react-icons/gr";
+// import { AiOutlinePrinter } from "react-icons/ai";
+// import { MdSpellcheck } from "react-icons/md";
+// import { MdOutlineColorize } from "react-icons/md";
+// import { BiPaintRoll } from "react-icons/bi";
+// import { MdOutlineFormatBold } from "react-icons/md";
+// import { MdOutlineFormatItalic } from "react-icons/md";
+// import { MdFormatColorText } from "react-icons/md";
+// import { MdFormatUnderlined } from "react-icons/md";
+// import { BiCommentAdd } from "react-icons/bi";
+// import { BiImageAlt } from "react-icons/bi";
+// import { FiLink2 } from "react-icons/fi";
+// import { ImParagraphLeft } from "react-icons/im";
+// import { MdChecklistRtl } from "react-icons/md";
+// import { MdFormatListBulleted } from "react-icons/md";
+// import { MdFormatListNumbered } from "react-icons/md";
+// import { MdOutlineFormatIndentIncrease } from "react-icons/md";
+// import { MdOutlineFormatIndentDecrease } from "react-icons/md";
+// import { MdOutlineModeEditOutline } from "react-icons/md";
 import { MdDriveFileMoveOutline } from "react-icons/md";
 import { GiBackwardTime } from "react-icons/gi";
 import { BsCloudCheck } from "react-icons/bs";
 import { FiStar } from "react-icons/fi";
-import { MdFormatClear } from "react-icons/md";
-import InputLabel from "@mui/material/InputLabel";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import Select from "@mui/material/Select";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-
-
+// import { MdFormatClear } from "react-icons/md";
+// import InputLabel from "@mui/material/InputLabel";
+// import MenuItem from "@mui/material/MenuItem";
+// import FormControl from "@mui/material/FormControl";
+// import Select from "@mui/material/Select";
+// import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
 const Doc = () => {
-  const [zoom, setZoom] = useState("");
-  const [count, setcount] = useState(0);
-  const [open, setOpen] = useState(false);
+  // const [zoom, setZoom] = useState("");
+  // const [count, setcount] = useState(0);
+  //  const [open, setOpen] = useState(false);
 
-  const handleChange = (event) => {
-    setZoom(event.target.value);
-  };
-  const handleIncrement = (event) => {
-    setcount(count + 1);
-  };
-  const handleDecrement = (event) => {
-    setcount(count - 1);
-  };
-
-
- 
-
-
+  // const handleChange = (event) => {
+  //   setZoom(event.target.value);
+  // };
+  // const handleIncrement = (event) => {
+  //   setcount(count + 1);
+  // };
+  // const handleDecrement = (event) => {
+  //   setcount(count - 1);
+  // };
 
   return (
     <div>
@@ -109,7 +102,7 @@ const Doc = () => {
           <Avatar alt="Aindy Baker" src="/static/images/avatar/3.jpg" />
         </div>
       </div>
-      <div className="tools">
+      {/* <div className="tools">
         <GrRedo />
         <GrUndo />
         <AiOutlinePrinter />
@@ -370,11 +363,9 @@ const Doc = () => {
             endIcon={<KeyboardArrowUpIcon />}
           ></Button>
         </div>
-      </div>
+      </div> */}
 
-      <div className="page">
- 
-      </div>
+      <div className="page"></div>
     </div>
   );
 };
