@@ -96,3 +96,6 @@
   width: 2rem;
   height: 1.5rem;
 }
+.page {
+  height: 100vh;
+}

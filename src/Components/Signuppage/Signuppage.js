@@ -26,17 +26,19 @@ const Signuppage = () => {
         <div className="left-side-menu">
           <p>More Tools</p>
 
-          <Button
-            sx={{
-              border: "1px gray solid",
-              height: "3rem",
-              color: "#1a73e8",
-            }}
-            className="share-btn"
-            variant="outlined"
-          >
-            Go to Docs
-          </Button>
+          <Link to="/home">
+            <Button
+              sx={{
+                border: "1px gray solid",
+                height: "3rem",
+                color: "#1a73e8",
+              }}
+              className="share-btn"
+              variant="outlined"
+            >
+              Go to Docs
+            </Button>
+          </Link>
           <Button
             sx={{
               backgroundColor: "#1a73e8",
@@ -59,17 +61,19 @@ const Signuppage = () => {
             device.
           </p>
           <div className="signup-btns">
-            <Button
-              sx={{
-                border: "1px gray solid",
-                height: "3rem",
-                color: "#1a73e8",
-              }}
-              className="share-btn"
-              variant="outlined"
-            >
-              Go to Docs
-            </Button>
+            <Link to="/home">
+              <Button
+                sx={{
+                  border: "1px gray solid",
+                  height: "3rem",
+                  color: "#1a73e8",
+                }}
+                className="share-btn"
+                variant="outlined"
+              >
+                Go to Docs
+              </Button>
+            </Link>
             <Button
               sx={{
                 backgroundColor: "#1a73e8",
@@ -88,7 +92,7 @@ const Signuppage = () => {
             Dont have an account?{" "}
             <span>
               {" "}
-              <Link to="/signin">Signup for free</Link>{" "}
+              <Link to="/loggedin">Signup for free</Link>{" "}
             </span>
           </p>
         </div>
