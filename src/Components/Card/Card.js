@@ -8,6 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import "./card.css";
+import { Link } from "react-router-dom";
 
 const Cards = () => {
   return (
@@ -30,32 +31,33 @@ const Cards = () => {
         />
       </Card> */}
 
-      <Card
-        sx={{
-          width: 180,
-          backgroundColor: "white",
-          height: 250,
-          border:"1px gray solid"
-       
-        }}
-      >
-        <CardContent
+      <Link to="/home">
+        <Card
           sx={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "flex-end",
+            width: 180,
+            backgroundColor: "white",
+            height: 250,
+            border: "1px gray solid",
           }}
         >
-          <Typography variant="h6" component="div">
-            Card Title
-          </Typography>
-        </CardContent>
-        <CardActions sx={{ marginTop: "auto" }}>
-          <IconButton aria-label="more options">
-            <MoreVertIcon />
-          </IconButton>
-        </CardActions>
-      </Card>
+          <CardContent
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "flex-end",
+            }}
+          >
+            <Typography variant="h6" component="div">
+              New Document
+            </Typography>
+          </CardContent>
+          <CardActions sx={{ marginTop: "auto" }}>
+            <IconButton aria-label="more options">
+              <MoreVertIcon />
+            </IconButton>
+          </CardActions>
+        </Card>{" "}
+      </Link>
     </div>
   );
 };

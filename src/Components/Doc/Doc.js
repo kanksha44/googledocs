@@ -387,7 +387,7 @@ const Doc = ({ value, onChange }) => {
               }}
             >
               <InputLabel id="demo-simple-select-filled-label">
-                Arial
+                {/* Arial */}
               </InputLabel>
               <Select
                 labelId="demo-simple-select-filled-label"
